@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.heading{
+    font-size: 32px;
+     color: #27debf;
+}
+ul{
+    display: flex;
+    gap: 3rem;
+}
+ul li a{
+    text-decoration: none;
+    color: #000000bb;
+    font-weight: 500;
+}
+ul li{
+    list-style: none;
+    font-size: 17px;
+    
+
+}
+header{
+  display: flex;
+  align-items: center;
+    padding: 23px;
+
+ justify-content: space-around;
+ flex-wrap: wrap;
+
+}
+img{
+   width: 100%;
+    padding: 15px 20px;
+}
+.header-heading{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    margin: 22px;
+    
+}
+.header-paragraph{
+    margin: 22px;
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+button{
+    margin: 22px;
+    padding: 11px 30px;
+    font-size: 18px;
+    border-radius: 12px;
+    color: #fff;
+    letter-spacing: 0.05rem;
+    border: 1px solid lightgray;
+    background-color: 	#27debf;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.first-div{
+   
+}
+.second-div{
+  
+  
+}
+.chat{
+    background-color: transparent;
+    color: #000;
+}
+.icon{
+    position: absolute;
+    bottom: 19px;
+    left: 50%;
+    width: 45px;
+    height: 45px;
+    box-sizing: border-box;
+    padding: 5px;
+   
+
+   
+
+}
+#element{
+    color: #27debf;
+}
